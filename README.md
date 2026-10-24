@@ -12,7 +12,7 @@ This practical investigates how Transformer models process and generate text. It
 
 The notebook uses pretrained models and does **not** train or fine-tune them.
 
-🎥 **Video:** [`Explanation Video`](https://drive.google.com/file/d/1dyl48J4srtE-wqF76ArJWylJC0tDCqZO/view?usp=sharing)
+🎥 **Video:** [`Explanation Video`](https://drive.google.com/file/d/1wuiOSePxEnz6xp51ZrParRk_jLTn3mTV/view?usp=sharing)
 
 
 ## 🎯 Objectives

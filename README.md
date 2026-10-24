@@ -88,67 +88,67 @@ The notebook uses pretrained models and does **not** train or fine-tune them.
 
 ## 📊 Output Visualizations
 
-The `outputs/` folder contains selected generated figures from the practical. The images below are embedded directly in this README.
+The `output/` folder contains selected generated figures from the practical. The images below are embedded directly in this README.
 
 ### 1. Self-Attention & Attention Heads
 
 **Scaled Dot-Product Self-Attention**
 
-![Scaled dot-product self-attention](outputs/4x4_attention_heatap.png)
+![Scaled dot-product self-attention](output/4x4_attention_heatap.png)
 
 **DistilBERT Attention Heads**
 
-![DistilBERT attention heads](outputs/6_attention_head_heatmap.png)
+![DistilBERT attention heads](output/6_attention_head_heatmap.png)
 
 **Attention Entropy Across Heads**
 
-![Attention entropy](outputs/attention_entropy.png)
+![Attention entropy](output/attention_entropy.png)
 
 **DistilBERT Average Attention**
 
-![Average attention heatmap](outputs/avg_attention_heatmap.png)
+![Average attention heatmap](output/avg_attention_heatmap.png)
 
 ### 2. Positional Encodings
 
 **Sinusoidal Positional Encoding**
 
-![Sinusoidal positional encoding](outputs/positional_encoding.png)
+![Sinusoidal positional encoding](output/positional_encoding.png)
 
 **Learned Positional Embedding Similarity**
 
-![Learned positional embedding similarity](outputs/position_enc_matrix.png)
+![Learned positional embedding similarity](output/position_enc_matrix.png)
 
 ### 3. Encoder / Decoder Attention
 
 **Causal Masked Self-Attention**
 
-![Causal masked self-attention](outputs/causal_selfattention_matrix.png)
+![Causal masked self-attention](output/causal_selfattention_matrix.png)
 
 **GPT-2 Causal Attention**
 
-![GPT-2 causal attention](outputs/gpt2_attention_heatmap.png)
+![GPT-2 causal attention](output/gpt2_attention_heatmap.png)
 
 **T5 Cross-Attention: English to French**
 
-![T5 cross-attention](outputs/t5_cross_attention.png)
+![T5 cross-attention](output/t5_cross_attention.png)
 
 **DistilBERT Attention Heatmap**
 
-![DistilBERT attention heatmap](outputs/attention_heatmap.png)
+![DistilBERT attention heatmap](output/attention_heatmap.png)
 
 ### 4. Model Analysis & Inference
 
 **DistilBERT Parameter Distribution**
 
-![Parameter distribution](outputs/component_dist.png)
+![Parameter distribution](output/component_dist.png)
 
 **KV Cache vs No Cache**
 
-![KV cache benchmark](outputs/kv_vs_no_cache.png)
+![KV cache benchmark](output/kv_vs_no_cache.png)
 
 **Performance and Inference Time vs Maximum Token Length**
 
-![Performance and inference time](outputs/perfomance_timevs_maxtokenlentght.png)
+![Performance and inference time](output/perfomance_timevs_maxtokenlentght.png)
 
 ## 🧪 IMDB Evaluation
 
@@ -177,7 +177,7 @@ It includes handling for empty inputs and truncates inputs to the supported mode
 
 ### 1. Clone or copy the project
 
-Place `Pr_6.ipynb` and `requirements.txt` in your project folder. Keep the `outputs/` folder beside them if you want the README images to render.
+Place `Pr_6.ipynb` and `requirements.txt` in your project folder. Keep the `output/` folder beside them if you want the README images to render.
 
 ### 2. Create and activate a virtual environment
 
@@ -208,7 +208,7 @@ PR6/
 ├── Pr_6.ipynb
 ├── requirements.txt
 ├── README.md
-└── outputs/
+└── output/
     ├── t5_cross_attention.png
     ├── 4x4_attention_heatap.png
     ├── 6_attention_head_heatmap.png
@@ -226,15 +226,15 @@ PR6/
 
 ## ✅ Submission Checklist
 
-- [ ] Notebook contains all required tasks and explanations.
-- [ ] All code cells run from top to bottom without errors.
-- [ ] Plots have titles, axis labels, and readable token labels.
-- [ ] Evaluation metrics and confusion matrix are visible.
-- [ ] Generated GPT-2 responses are manually graded.
-- [ ] The integrated toolkit is tested on three passages and empty input.
-- [ ] `requirements.txt` is included.
-- [ ] Output images are included in `outputs/`.
-- [ ] Notebook and HTML export are saved if required by the instructor.
+- [x] Notebook contains all required tasks and explanations.
+- [x] All code cells run from top to bottom without errors.
+- [x] Plots have titles, axis labels, and readable token labels.
+- [x] Evaluation metrics and confusion matrix are visible.
+- [x] Generated GPT-2 responses are manually graded.
+- [x] The integrated toolkit is tested on three passages and empty input.
+- [x] `requirements.txt` is included.
+- [x] Output images are included in `output/`.
+- [x] Notebook and HTML export are saved if required by the instructor.
 
 ## ⚠️ Notes & Limitations
 
